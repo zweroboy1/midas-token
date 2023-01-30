@@ -1,0 +1,25 @@
+.notification {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.013em;
+  color: rgba($color: #fff, $alpha: 0.64);
+
+  &__link {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.013em;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  &__arrow {
+    margin-left: 2px;
+    position: relative;
+    top: 2px;
+    right: 0;
+  }
+}

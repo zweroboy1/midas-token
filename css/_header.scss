@@ -1,0 +1,19 @@
+.header {
+  &__notification {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 32px 10px;
+    text-align: center;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to left, #43a1f7, #8643dc, #f743af, #f78070, #be40ff, #20bcff, #00f69e) 1 100%;
+    border-image-slice: 1;
+    border-width: 1px;
+  }
+  &__notification-closer {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+  }
+}

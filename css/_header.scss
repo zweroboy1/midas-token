@@ -9,11 +9,25 @@
     border-image: linear-gradient(to left, #43a1f7, #8643dc, #f743af, #f78070, #be40ff, #20bcff, #00f69e) 1 100%;
     border-image-slice: 1;
     border-width: 1px;
-  }
-  &__notification-closer {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    cursor: pointer;
+
+    &-link {
+      display: inline-block;
+      margin-left: 8px;
+      margin-top: 2px;
+    }
+
+    &-arrow {
+      margin-left: 2px;
+      position: relative;
+      top: 2px;
+      right: 0;
+    }
+
+    &-closer {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      cursor: pointer;
+    }
   }
 }

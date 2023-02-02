@@ -51,4 +51,13 @@ body {
   right: 8px;
   cursor: pointer;
 }
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  margin: 10px 20px 0 0;
+}
 /*# sourceMappingURL=styles.css.map */

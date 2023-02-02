@@ -30,4 +30,13 @@
       cursor: pointer;
     }
   }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    margin: 10px 20px 0 0;
+  }
 }

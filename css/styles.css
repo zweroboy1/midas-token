@@ -3,6 +3,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.wrapper {
+  margin: 0 20px;
+}
+
+.main-title {
+  margin-top: -9px;
+}
+
 .notification {
   font-weight: 600;
   font-size: 13px;

@@ -16,10 +16,20 @@
 }
 
 .h1 {
+  margin: 0;
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.05em;
   color: #ffffff;
+  text-shadow: 0px 32px 64px rgba(255, 255, 255, 0.08);
+}
+
+.blue-gradient {
+  background: linear-gradient(267.57deg, #577cff 0%, #4cbfff 100%), #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   text-shadow: 0px 32px 64px rgba(255, 255, 255, 0.08);
 }

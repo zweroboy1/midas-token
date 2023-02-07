@@ -39,4 +39,14 @@
   &__menu {
     margin: 10px 20px 0 0;
   }
+
+  &__link {
+    width: fit-content;
+  }
+
+  &__line {
+    border: 0;
+    background-color: #00f69e;
+    height: 2px;
+  }
 }

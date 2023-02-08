@@ -45,8 +45,12 @@
   }
 
   &__line {
+    position: relative;
+    top: -8px;
+    left: 2px;
     border: 0;
-    background-color: #00f69e;
     height: 2px;
+    background-image: linear-gradient(267.57deg, #577cff 0%, #4cbfff 100%);
+    opacity: 0.24;
   }
 }

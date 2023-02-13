@@ -9,3 +9,17 @@
   backdrop-filter: blur(60px);
   border-radius: 20px;
 }
+
+.chart {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  &__line {
+    width: 20px;
+    height: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+  }
+}

@@ -122,12 +122,52 @@ body {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  align-items: flex-end;
 }
 
 .chart__line {
   width: 20px;
-  height: 14px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 6px;
+}
+
+.chart__line_1 {
+  height: 14px;
+}
+
+.chart__line_2 {
+  height: 20px;
+}
+
+.chart__line_3 {
+  height: 26px;
+}
+
+.chart__line_4 {
+  height: 34px;
+}
+
+.chart__line_5 {
+  height: 44px;
+}
+
+.chart__line_6 {
+  height: 56px;
+}
+
+.chart__line_7 {
+  height: 74px;
+}
+
+.chart__line_8 {
+  height: 92px;
+}
+
+.chart__line_9 {
+  height: 108px;
+}
+
+.chart__line_10 {
+  height: 128px;
 }
 /*# sourceMappingURL=styles.css.map */

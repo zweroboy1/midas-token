@@ -121,6 +121,7 @@ body {
 .chart__container {
   display: flex;
   flex-direction: row;
+  margin: 23px auto;
   gap: 8px;
   align-items: flex-end;
 }

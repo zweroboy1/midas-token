@@ -63,6 +63,17 @@ body {
   color: #ffffff;
 }
 
+.read-more-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.016em;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.36;
+}
+
 .header {
   margin-bottom: 56px;
 }
@@ -209,6 +220,12 @@ body {
 
 .chart__title {
   margin: 1px 32px;
+  text-align: center;
+}
+
+.chart__link-container {
+  margin-top: 8px;
+  width: 100%;
   text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

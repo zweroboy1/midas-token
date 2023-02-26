@@ -260,10 +260,10 @@ body {
 }
 
 .exchange__container {
-  margin: 0 auto;
+  margin: 44px auto 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
 }
 /*# sourceMappingURL=styles.css.map */

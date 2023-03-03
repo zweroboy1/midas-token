@@ -150,8 +150,11 @@
       content: "";
       width: 28px;
       height: 28px;
-      left: 0px;
+      left: 2px;
       bottom: 2px;
+      background-image: url("../images/gift.svg");
+      background-position: 6px 6px;
+      background-repeat: no-repeat;
       background-color: white;
       -webkit-transition: 0.4s;
       transition: 0.4s;
@@ -164,7 +167,7 @@ input:checked + .exchange__slider {
 }
 
 input:checked + .exchange__slider:before {
-  transform: translateX(26px);
+  transform: translateX(24px);
 }
 
 .exchange__slider.round {

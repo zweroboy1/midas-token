@@ -296,6 +296,11 @@ body {
   transition: 0.4s;
 }
 
+.exchange__title {
+  margin: 33px 32px 0;
+  text-align: center;
+}
+
 input:checked + .exchange__slider {
   background-color: #2196f3;
 }

@@ -160,6 +160,13 @@
       transition: 0.4s;
     }
   }
+
+  &__title {
+    //background-color: #fff;
+
+    margin: 33px 32px 0;
+    text-align: center;
+  }
 }
 
 input:checked + .exchange__slider {

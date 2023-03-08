@@ -153,6 +153,17 @@ body {
   border-radius: 20px;
 }
 
+.info__title {
+  margin: 1px 32px;
+  text-align: center;
+}
+
+.info__link-container {
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+}
+
 .chart {
   position: relative;
 }
@@ -226,19 +237,8 @@ body {
   height: 128px;
 }
 
-.chart__title {
-  margin: 1px 32px;
-  text-align: center;
-}
-
-.chart__link-container {
-  margin-top: 8px;
-  width: 100%;
-  text-align: center;
-}
-
 .exchange__container {
-  margin: 44px auto 20px;
+  margin: 44px auto 52px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -295,11 +295,6 @@ body {
   background-repeat: no-repeat;
   background-color: white;
   transition: 0.4s;
-}
-
-.exchange__title {
-  margin: 33px 32px 0;
-  text-align: center;
 }
 
 input:checked + .exchange__slider {
